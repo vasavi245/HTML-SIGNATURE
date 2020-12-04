@@ -24,3 +24,8 @@ img {
 .details {
     font-family: cursive;
 }
+
+.social-icons {
+    width:30px;
+    height:30px;
+}
