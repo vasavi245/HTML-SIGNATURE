@@ -1,2 +1,3 @@
-# example
-This html page shows states and territories of Australia
+# HTML-SIGNATURE
+HTMl email signature used to generate signature for your email.
+

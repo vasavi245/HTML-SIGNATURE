@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script
-    src="https://kit.fontawesome.com/45b8d3bce0.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/45b8d3bce0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>HTML Email Signature</title>
-</head>
-<body>
-    <table  cellpadding="0" cellspacing="0" width="500">
+  </head>
+  <body>
+    <div class="container">
+      <table class="table-container" role="presentation" width="500">
         <tbody>
-            <tr class="bordered">
-                <td cellpadding="0" cellspacing="0" height="38" width="222">
-                    <img src="Sindhu.jpg" alt="myimage" height="200" width="200" />
-                    
-                </td>
-            
-            
-                <td height="64" style="font-family:Helvetica, Arial, sans-serif; font-size:18px; font-style:bold;">
-                    <strong>Vasavi Saladi</strong>
-                    <br>
-                    <em style="font-size:17px; font-weight:400;">Full Stack Developer</em>
-                  </td>
-            </tr>
-           
-            <tr >
-                <td class="hover" height="60" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#d0297d;">
-                  <a href="mailto:r.vasavi04@gmail.com" onMouseOver="this.style.color='#71080a'" style="color:#660892; ">r.vasavi04@gmail.com.com</a>
-                  <br>
-                  <a href="https://reverent-leavitt-fa59c7.netlify.com/" onMouseOver="this.style.color='#71080a'" target="_blank" style="color:#660892;">Portfolio</a>
-                </td>
-              </tr>
-              <tr>
-                  <td height="55">
-                   
-                    <!--Link to my github repo-->
-                    <a href="https://github.com/vasavi245" target="_blank">
-                        <i class="fa fa-github fa-2x"></i></a>
-                       
-                        <!--Link to my linkedin page-->
-                        <a href="https://www.linkedin.com/in/vasavi245/" target="_blank">
-                             <i class="fa fa-linkedin fa-2x"></i></a>
+          <tr>
+            <td class="headshot-cell" cellspacing="0" height="38" width="222">
+              <img src="Sindhu.jpg" alt="myimage" height="200" width="200" />
+            </td>
+            <td>
+              <table >
+                <tbody>
+                  <tr>
+                    <td
+                      height="64"
+                      style="
+                        font-family: cursive;
+                        font-size: 18px;
+                        font-style: bold;
+                      "
+                    >
+                      <strong>Vasavi Saladi</strong>
+                      <br />
+                      <em style="font-size: 17px; font-weight: 400"
+                        >Full Stack Developer</em
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        href="https://reverent-leavitt-fa59c7.netlify.com/"
+                        onMouseOver="this.style.color='#71080a'"
+                        target="_blank"
+                        style="color: #660892" class="portfolio"
+                        >Portfolio</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="55">
+                      <!--Link to my github repo-->
+                      <a href="https://github.com/vasavi245" target="_blank">
+                        <i class="fa fa-github fa-2x"></i
+                      ></a>
 
-                  </td>
-              </tr>
-          
-
+                      <!--Link to my linkedin page-->
+                      <a
+                        href="https://www.linkedin.com/in/vasavi245/"
+                        target="_blank"
+                      >
+                        <i class="fa fa-linkedin fa-2x"></i
+                      ></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
         </tbody>
-    </table>
-</body>
+      </table>
+    </div>
+  </body>
 </html>
